@@ -159,6 +159,14 @@
             border-radius: 8px;
             margin: 1rem 0;
         }
+
+        .tools-box {
+            background: #f8f4ff;
+            border: 2px solid #9b59b6;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
         
         ul {
             margin: 1rem 0;
@@ -227,6 +235,48 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             border-radius: 15px;
+        }
+
+        .strategy-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .strategy-item {
+            background: #f8f9fa;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #e9ecef;
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+
+        .tool-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem;
+            background: #ffffff;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .tool-item a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .tool-item a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -320,6 +370,54 @@
             <p>价值投资就是<strong>"用一块钱买价值两块钱的东西"</strong>。找到好公司，在合理价格买入，耐心持有让时间发挥作用。</p>
         </div>
 
+        <div class="section-title">我的策略</div>
+        
+        <div class="strategy-grid">
+            <div class="strategy-item">
+                <h4 style="color: #667eea; margin-bottom: 0.5rem;">📊 读懂财报</h4>
+                <p>掌握关键指标，判断公司健康状况</p>
+            </div>
+            <div class="strategy-item">
+                <h4 style="color: #667eea; margin-bottom: 0.5rem;">🧮 估值计算</h4>
+                <p>用 DCF 算出公司的合理价格</p>
+            </div>
+            <div class="strategy-item">
+                <h4 style="color: #667eea; margin-bottom: 0.5rem;">⏰ 等待时机</h4>
+                <p>市场下跌时，用合理价格DCA买入好公司</p>
+            </div>
+        </div>
+
+        <div class="section-title">实用工具</div>
+        
+        <div class="tools-box">
+            <div class="tools-grid">
+                <div class="tool-item">
+                    <span><strong>财报分析:</strong></span>
+                    <a href="https://finance.yahoo.com/" target="_blank">finance.yahoo.com</a>
+                </div>
+                <div class="tool-item">
+                    <span><strong>DCF 工具:</strong></span>
+                    <a href="https://www.gurufocus.com/dcf-calculator" target="_blank">gurufocus.com/dcf-calculator</a>
+                </div>
+                <div class="tool-item">
+                    <span><strong>市场情绪指标:</strong></span>
+                    <a href="https://edition.cnn.com/markets/fear-and-greed" target="_blank">cnn.com/markets/fear-and-greed</a>
+                </div>
+                <div class="tool-item">
+                    <span><strong>财报周期:</strong></span>
+                    <a href="https://www.nasdaq.com/market-activity/earnings" target="_blank">nasdaq.com/market-activity/earnings</a>
+                </div>
+                <div class="tool-item">
+                    <span><strong>美股筛选:</strong></span>
+                    <a href="https://finviz.com/" target="_blank">finviz.com</a>
+                </div>
+                <div class="tool-item">
+                    <span><strong>个股分析:</strong></span>
+                    <a href="https://www.financecharts.com/" target="_blank">financecharts.com</a>
+                </div>
+            </div>
+        </div>
+
         <div class="section-title">价值投资四步法</div>
 
         <div class="step-container">
@@ -354,6 +452,10 @@
             </div>
         </div>
 
+        <div class="page-number">- 2 -</div>
+    </div>
+
+    <div class="page">
         <div class="step-container">
             <div class="step-number">3</div>
             <div class="step-content">
@@ -370,7 +472,7 @@
         <div class="step-container">
             <div class="step-number">4</div>
             <div class="step-content">
-                <h3>分批买入，耐心持有 </h3>
+                <h3>DCA分批买入，耐心持有 </h3>
                 <ul>
                     <li>到达合理价格时，先买入1/4的股票（我一般会分配好几次够买，千万不要all in）</li>
                     <li>剩下3/4的股票在接下来几个月如果股票跌超过5% 在持续分批买入</li>
@@ -389,10 +491,8 @@
             </ol>
         </div>
 
-        <div class="page-number">- 2 -</div>
-    </div>
+<br><br><br><br><br><br><br><br>
 
-    <div class="page">
         <h1 class="chapter-title">篇章三：投资稳了，然后呢？</h1>
         <h2 class="center" style="color: #764ba2; margin-bottom: 2rem;">期权策略创造被动收入</h2>
         
@@ -423,6 +523,10 @@
             </div>
         </div>
 
+        <div class="page-number">- 3 -</div>
+    </div>
+
+    <div class="page">
         <div class="step-container">
             <div class="step-number">2</div>
             <div class="step-content">
@@ -472,10 +576,6 @@
             </ul>
         </div>
 
-        <div class="page-number">- 3 -</div>
-    </div>
-
-    <div class="page">
         <div class="section-title">期权策略风险管理</div>
 
         <div class="warning-box">
@@ -498,6 +598,10 @@
             </ul>
         </div>
 
+        <div class="page-number">- 4 -</div>
+    </div>
+
+    <div class="page">
         <div class="section-title">三大策略整合运用</div>
 
         <div class="grid-3">
@@ -546,7 +650,7 @@
         <div class="section-title">我的成绩</div>
         <div class="key-point">
             <p><strong>Etoro:</strong> 2023年12月开始学习投资，两年回报率71.89%</p>
-            <p><strong>MooMoo:</strong> 2025年1月开始投资，7个月回报率63.42%</p>
+            <p><strong>MooMoo:</strong> 2025年1月开始投资，8个月回报率89.42%</p>
         </div>
 
         <div class="section-title">我的公开投资组合</div>
@@ -555,11 +659,16 @@
             <p><strong>MooMoo:</strong> <a href="https://www.moomoo.com/community/profile/103528503?share_code=0bQ3ts" target="_blank">https://www.moomoo.com/community/profile/103528503?share_code=0bQ3ts</a></p>
         </div>
 
-        <div class="center" style="margin-top: 2rem;">
-            <p>请关注我的账号，我将陆续分享更多投资内容给大家！</p>
-        </div>
+<div class="follow-links" style="text-align:center; margin-top:2rem; padding:2rem; border:1px solid #ddd; border-radius:12px; background:#f8f9fa;">
+    <h3 style="margin-bottom:1.5rem; color:#34495e;">请关注我的账号，我将陆续分享更多投资内容给大家！</h3>
+    <a href="https://chanqinghang.github.io/zeroroninediary/" target="_blank" 
+       style="display:inline-block; padding:0.8rem 2rem; background:linear-gradient(135deg,#667eea,#764ba2); color:white; font-weight:600; border-radius:8px; text-decoration:none; font-size:1.1rem;">
+        🙋🏻‍♂️ 关于我
+    </a>
+</div>
 
-        <div class="page-number">- 4 -</div>
+
+        <div class="page-number">- 5 -</div>
     </div>
 
     <script>
